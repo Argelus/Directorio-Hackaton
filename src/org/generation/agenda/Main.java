@@ -185,7 +185,7 @@ public class Main {
                     }
                     case ELIMINAR: {
                         String nombre = leerNoVacio(sc, "Nombre a eliminar: ");
-                        Contacto c = new Contacto(nombre, "N/A");
+                        Contacto c = new Contacto(nombre, "No aplica");
                         agenda.eliminarContacto(c);
                         break;
                     }
